@@ -16,7 +16,7 @@ export default function UserList({ arr }) {
       <AddUser onAdd={addItemHandler} />
 
       {updatedList.map((element) => (
-        <UserListItem key={element.id} userName={element.name} age={element.age} />
+        <UserListItem key={element.id} userName={element.name} age={element.age} college={element.college} />
       ))}
     </Card>
   );
